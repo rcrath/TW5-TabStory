@@ -1,0 +1,42 @@
+created: 20150411233934616
+modified: 20150419084254625
+tags: $:/tags/Stylesheet
+title: $:/themes/tiddlywiki/rcradd
+type: text/vnd.tiddlywiki
+
+.story-tabs a {
+white-space:nowrap;
+display:	inline-block;
+}
+
+.story-backdrop a {
+    color: #999999;
+    background-color: #ECECEC;
+    font-weight: normal;
+    padding-right: 14px;
+    padding-left: 14px;
+    border-top: 2px solid #D8D8D8;
+    border-left: 1px solid #D8D8D8;
+    border-right: 1px solid  #D8D8D8;
+    border-bottom: 2px solid #D8D8D8;
+/**    border-top-right-radius: 10px; 
+    border-top-left-radius: 10px;  **/
+
+}
+.story-backdrop a:focus {
+
+    background-color: #FFFFFF;
+     color: #182955;
+    border-bottom: 0px;
+    font-weight: bold;
+
+}
+.story-backdrop a:hover {
+      background-color: #F8F8F8;
+}
+.story-backdrop {
+padding-bottom: 4px;
+background-color: #FFFFFF
+}
+
+
